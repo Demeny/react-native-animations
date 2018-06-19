@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Animated, StyleSheet, Easing } from 'react-native';
 import ResetButton from './ResetButton';
 
-class OpacityAnimation extends Component {
+class HeightAndCustomBounceAnimation extends Component {
   state = {
     animation: new Animated.Value(0),
   };
@@ -61,7 +61,7 @@ class OpacityAnimation extends Component {
   }
 }
 
-export default OpacityAnimation;
+export default HeightAndCustomBounceAnimation;
 
 const styles = StyleSheet.create({
   container: {
